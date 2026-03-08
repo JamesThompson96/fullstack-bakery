@@ -82,12 +82,11 @@ ul {
   display: flex;
   flex-flow: column wrap;
   gap: 1ch;
-  margin: -5ch;
+  margin: 8ch;
 }
 main {
   display: flex;
-  gap: 2ch;
-  align-content: center;
+  flex-grow: 1;
 }
 footer {
   display: flex;
@@ -114,7 +113,10 @@ header {
   gap: 5ch;
 }
 aside {
-  display: flex;
-  flex-flow: column wrap;
   gap: 1ch;
+}
+button {
+  background-color: crimson;
+  cursor: pointer;
+  border: 1px solid oldlace;
 }
