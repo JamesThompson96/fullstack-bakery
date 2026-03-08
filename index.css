@@ -1,0 +1,120 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5ch;
+  color: black;
+  font-size: 2ch;
+  flex-grow: 1;
+  margin: 1ch;
+}
+.brand {
+  display: flex;
+  justify-content: flex-start;
+  color: brown;
+  font-size: 5ch;
+  flex-shrink: 1;
+}
+
+body {
+  background-color: beige;
+  margin: 1ch;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.dessert {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2ch;
+  align-items: flex-start;
+}
+
+.dessert {
+  box-sizing: border-box;
+}
+li {
+  width: 100px;
+  height: 50px;
+  border: 1px crimson;
+  background: crimson;
+  color: white;
+  text-align: left;
+  border-radius: 10%;
+}
+article {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1ch;
+  margin: 5ch;
+}
+
+#Bread {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+#Cakes {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+#Cookies {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+#Muffins {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+#Pies {
+  padding: 1px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1ch;
+  margin: -5ch;
+}
+main {
+  display: flex;
+  gap: 2ch;
+  align-content: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 1ch;
+  margin: 1ch;
+}
+blockquote {
+  display: flex;
+  font-style: italic;
+  color: black;
+}
+figure {
+  background-color: lightgray;
+  padding: 1ch;
+  border: 1ch solid gray;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5ch;
+}
+aside {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1ch;
+}
