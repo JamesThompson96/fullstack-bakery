@@ -1,9 +1,10 @@
 nav {
   display: flex;
   justify-content: flex-end;
+  align-items: space-around;
   gap: 5ch;
   color: black;
-  font-size: 2ch;
+  font-size: 24px;
   flex-grow: 1;
   margin: 1ch;
 }
@@ -13,6 +14,7 @@ nav {
   color: brown;
   font-size: 5ch;
   flex-shrink: 1;
+  margin: 3ex;
 }
 
 body {
@@ -87,14 +89,16 @@ ul {
 main {
   display: flex;
   flex-grow: 1;
+  margin: -10ch;
 }
 footer {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   background-color: black;
   color: white;
   padding: 1ch;
-  margin: 1ch;
+  margin: 20ch;
 }
 blockquote {
   display: flex;
